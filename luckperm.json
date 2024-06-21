@@ -1,0 +1,1814 @@
+{
+    "metadata": {
+      "generatedBy": "MillsUnited@survial",
+      "generatedAt": "2024-06-16 11:37:26 EDT"
+    },
+    "groups": {
+      "owner": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.manager",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.15.&#FF0000&lOwner&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.15.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.15",
+            "value": true
+          }
+        ]
+      },
+      "manager": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.dev",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.14.&4&l&oManager&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.14.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.14",
+            "value": true
+          }
+        ]
+      },
+      "dev": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "*",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.sradmin",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.13.&d&lDeveloper&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.13.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.13",
+            "value": true
+          }
+        ]
+      },
+      "sradmin": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.admin",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.deop",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.minecraft:deop",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.op",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.12.&4&lSrAdmin&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.12.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.12",
+            "value": true
+          }
+        ]
+      },
+      "admin": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "ajleaderboards.dontupdate.*",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.bypass.*",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "combatlogx.bypass",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.keepinv",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.keepxp",
+            "value": false
+          },
+          {
+            "type": "inheritance",
+            "key": "group.srmod",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.deop",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.minecraft:deop",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.command.op",
+            "value": false
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.11.&4&lAdmin&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.11.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.11",
+            "value": true
+          }
+        ]
+      },
+      "srmod": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "clearchat.chatenable",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.mod",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.banlist",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.ipban",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.ipmute",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.lastuuid",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.staffhistory",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.10.&c&lSrMod&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.10.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.10",
+            "value": true
+          }
+        ]
+      },
+      "mod": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "clearchat.chatmute",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "clearchat.clearchat",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "clearchat.clearchat.player",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "clearchat.clearmychat",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.unban",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.helper",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.unban",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.unban.own",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.unmute",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.9.&c&lMod&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.9.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.freeze",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.kb",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.knockback",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.9",
+            "value": true
+          }
+        ]
+      },
+      "helper": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "supervanish.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.admin.toggletp",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.admin.tpoffline",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.admin.tpofflinehere",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.member.toggletp",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "clearchat.clearchat.bypass",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.fly",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.silentjoin.vanish",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.tp",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.tp.others",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.tphere",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "invseeplusplus.view",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.ban",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.check",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.checkban",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.checkmute",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.history",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.iphistory",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.kick",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.mute",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.tempban",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.tempmute",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.warn",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.warnings",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "litebans.warnings.self",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.8.&c&lHelper&f",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "staff.chat",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "staffchat.chat",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.8.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "supervanish",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "sv.joinvanished",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "tab.seevanished",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "tab.staff",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.chatcolor.staff",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.invsee.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.alerts",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.cps",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "vulcan.rotate",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.8",
+            "value": true
+          }
+        ]
+      },
+      "media": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.7.&#FF00D9&l&oM&#ED00C0&l&oe&#DB00A8&l&od&#C9008F&l&oi&#B70076&l&oa&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.7.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.7",
+            "value": true
+          }
+        ]
+      },
+      "champion": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.mage",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.6.&#00FFAC&lC&#00FFB8&lh&#00FFC4&la&#00FFD0&lm&#00FFDB&lp&#00FFE7&li&#00FFF3&lo&#00FFFF&ln&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.6.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.11",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.12",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.6",
+            "value": true
+          }
+        ]
+      },
+      "united": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "essentials.nick.allowunsafe",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.bold",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.italic",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.champion",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.10",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.6.&#E67E23&lU&#E78B3B&ln&#E89953&li&#EAA66C&lt&#EBB484&le&#ECC19C&ld&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.6.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.chatcolor.bold",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.chatcolor.italic",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.13",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.14",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.15",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.6",
+            "value": true
+          }
+        ]
+      },
+      "legend": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.demon",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.6",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.5.&#E6D923&lL&#EBE03D&le&#EFE757&lg&#F4ED71&le&#F8F48B&ln&#FDFBA5&ld&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.5.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.11",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.12",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.5",
+            "value": true
+          }
+        ]
+      },
+      "mage": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "essentials.kittycannon",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.guardian",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.5.&#FF3EEA&lM&#E229C5&la&#C4159F&lg&#A7007A&le&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.5.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.10",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.9",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.5",
+            "value": true
+          }
+        ]
+      },
+      "demon": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "essentials.kittycannon",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.warrior",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.5",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.4.&#FD3838&lD&#FE5252&le&#FE6B6B&lm&#FF8585&lo&#FF9E9E&ln&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.4.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.10",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.9",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.4",
+            "value": true
+          }
+        ]
+      },
+      "guardian": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "at.member.back",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.fix",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.recipe",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.navigator",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.4.&#FF4646&lG&#E93C3C&lu&#D23232&la&#BC2828&lr&#A51E1E&ld&#8F1414&li&#780A0A&la&#620000&ln&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.4.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.invsee.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.7",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.8",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.4",
+            "value": true
+          }
+        ]
+      },
+      "navigator": {
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.blacksmith",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.3.&#2A7DFF&lN&#3A87FF&la&#4990FF&lv&#599AFF&li&#68A3FF&lg&#78ADFF&la&#87B6FF&lt&#97C0FF&lo&#A6C9FF&lr&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.3.&r",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.3",
+            "value": true
+          }
+        ]
+      },
+      "warrior": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "at.member.back",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "epicrename",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.fix",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.recipe",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.adventurer",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "invseeplusplus.view",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.4",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.3.&#FFAAF6&lW&#FFB2F7&la&#FFBAF8&lr&#FFC2F9&lr&#FFC9F9&li&#FFD1FA&lo&#FFD9FB&lr&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.3.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.invsee.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.7",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.8",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.3",
+            "value": true
+          }
+        ]
+      },
+      "adventurer": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "epicrename.epicrename",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.enderchest",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.hat",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.near",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.ptime",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.pweather",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.workbench",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.farmer",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.3",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.2.&#EBE15E&lA&#EBE26A&ld&#ECE476&lv&#ECE581&le&#EDE68D&ln&#EDE899&lt&#EEE9A5&lu&#EEEAB0&lr&#EFECBC&le&#EFEDC8&lr&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.2.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.chatcolor.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.5",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.6",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.2",
+            "value": true
+          }
+        ]
+      },
+      "blacksmith": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.hex",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.k",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.l",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.m",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.n",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "epicrename.rename.format.o",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.enderchest",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.hat",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.near",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.ptime",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.pweather",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.workbench",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.scout",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.2.&#BFBFBF&lB&#B2B2B2&ll&#A4A4A4&la&#979797&lc&#8A8A8A&lk&#7C7C7C&ls&#6F6F6F&lm&#626262&li&#545454&lt&#474747&lh&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.2.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.chatcolor.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.5",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.6",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.2",
+            "value": true
+          }
+        ]
+      },
+      "farmer": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "essentials.nick.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.feed",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.heal",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.keepxp",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.bold",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.italic",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.obfuscated",
+            "value": false
+          },
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.2",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.1.&#2FCC71&lF&#46CB7E&la&#5ECA8B&lr&#75CA99&lm&#8DC9A6&le&#A4C8B3&lr&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.1.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.3",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.4",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.1",
+            "value": true
+          }
+        ]
+      },
+      "scout": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "essentials.nick.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.feed",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.keepxp",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.bold",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.italic",
+            "value": false
+          },
+          {
+            "type": "permission",
+            "key": "essentials.nick.obfuscated",
+            "value": false
+          },
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "prefix",
+            "key": "prefix.1.&#00FF3B&lS&#21FF54&lc&#42FF6E&lo&#63FF87&lu&#84FFA0&lt&f",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.1.&r",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.3",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.4",
+            "value": true
+          },
+          {
+            "type": "weight",
+            "key": "weight.1",
+            "value": true
+          }
+        ]
+      },
+      "default": {
+        "nodes": [
+          {
+            "type": "permission",
+            "key": "multiverse.portal.access.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.member.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "duels.use.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "tradesystem.*",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.member.sethome",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.member.spawn",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "at.member.tpa",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "combatlogx.bypass.mobs",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "essentials.playtime",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "item2chat.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "item2chat.use.item",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "msg.use",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "playervaults.amount.1",
+            "value": true
+          },
+          {
+            "type": "suffix",
+            "key": "suffix.0.&7Player",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.1",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.vaults.number.2",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.customenchants",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.use",
+            "value": true
+          }
+        ]
+      }
+    },
+    "tracks": {},
+    "users": {
+      "90475ee9-6cac-433a-9458-3c895daae23b": {
+        "username": "xoltic",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.mod",
+            "value": true
+          }
+        ]
+      },
+      "935e51f6-ec57-4183-bacb-d27534a54776": {
+        "username": "schaht",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.dev",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Bannana",
+            "value": true
+          }
+        ]
+      },
+      "95b646ab-1d1c-4dbb-98fc-baa752362b0c": {
+        "username": "millsunited",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          },
+          {
+            "type": "meta",
+            "key": "meta.lp-editor-key.dOKS1FuJvuFkMDSk22kaI5j2SN8=",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.gradients.Milly Chatter",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.granients.millschatter",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Bannana",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Blackice",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Candyisdumb",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Demonkiller",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Ducks",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Harizzment",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Tester",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.gangster",
+            "value": true
+          }
+        ]
+      },
+      "9c09425e-9209-4c28-818a-2292aae151aa": {
+        "username": "raynuli88",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Harizzment",
+            "value": true
+          }
+        ]
+      },
+      "a04ac35b-a23f-41a5-9a0a-8a7a23f369c9": {
+        "username": "panamacanoe",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.admin",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "meta",
+            "key": "meta.lp-editor-key.dOKS1FuJvuFkMDSk22kaI5j2SN8=",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Bannana",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.pvper",
+            "value": true
+          }
+        ]
+      },
+      "a67bc808-6e11-40c7-9bec-b41e841abd61": {
+        "username": "mrduckworthgamin",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.admin",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.legend",
+            "value": true
+          },
+          {
+            "type": "meta",
+            "key": "meta.lp-editor-key.8Mc81b2cVvRNwdjV8dapwwgoOoc=",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Ducks",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Tester",
+            "value": true
+          }
+        ]
+      },
+      "c4ad9786-2f63-4c47-8854-6985f13ccff2": {
+        "username": "kolja07",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.gangster",
+            "value": true
+          }
+        ]
+      },
+      "ce6f2b9a-257e-452a-b6b4-e889e1b64615": {
+        "username": "fxmeless",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.dev",
+            "value": true
+          }
+        ]
+      },
+      "de290521-fdcf-4829-b72e-9e9abe81b77b": {
+        "username": "__flows_",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          }
+        ]
+      },
+      "f4796178-ada8-4604-8066-e410bf1ed1fc": {
+        "username": "rocho6613",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "swordskin.combat",
+            "value": true
+          }
+        ]
+      },
+      "00000000-0000-0000-0009-01f33c866c9d": {
+        "username": "*e1f9237",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          }
+        ]
+      },
+      "00000000-0000-0000-0009-01f9633387fb": {
+        "username": "*millsunited",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          }
+        ]
+      },
+      "00000000-0000-0000-0009-01fd419305cc": {
+        "username": "*candyasassin",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          }
+        ]
+      },
+      "0224d205-d32f-4992-8339-697345a6cf87": {
+        "username": "standardizedbra",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.mod",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Tester",
+            "value": true
+          }
+        ]
+      },
+      "02bfc603-3375-4664-b58f-179a9525e0be": {
+        "username": "just_kriskata",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.dev",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Blackice",
+            "value": true
+          }
+        ]
+      },
+      "2ccef5af-05b7-4b3f-890a-7611367d447e": {
+        "username": "flyguylogan22",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "swordskin.blaster",
+            "value": true
+          }
+        ]
+      },
+      "2e5d1abd-4449-40b6-a978-41073f0266d6": {
+        "username": "cordellius",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "swordskin.demon",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "swordskin.neon",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "swordskin.scarlet",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.cord",
+            "value": true
+          }
+        ]
+      },
+      "3c9c14b7-72ce-44ed-8e1a-465399b62299": {
+        "username": "sigloi",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.sradmin",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "minecraft.commandblock",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Candyisdumb",
+            "value": true
+          }
+        ]
+      },
+      "496e2d4b-9231-4191-8270-f44bcd9b3fb6": {
+        "username": "colvey",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.manager",
+            "value": true
+          },
+          {
+            "type": "meta",
+            "key": "meta.lp-editor-key.bI0nKA31AFvMDg4lmgzdZI2JJ1I=",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "unitedsmc.tags.Tester",
+            "value": true
+          }
+        ]
+      },
+      "707eceed-f016-4878-944a-acb79f9fb718": {
+        "username": "bigjitman",
+        "nodes": [
+          {
+            "type": "inheritance",
+            "key": "group.default",
+            "value": true
+          },
+          {
+            "type": "inheritance",
+            "key": "group.united",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.gradients.jittleyang",
+            "value": true
+          },
+          {
+            "type": "permission",
+            "key": "uniteds.granients.jittleyang",
+            "value": true
+          }
+        ]
+      }
+    }
+  }
